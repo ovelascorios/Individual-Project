@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDIVIDUAL PROJECT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!--Created by: Orlando Velasco Rios -Student ID:301368612 on Apr 2024-->
+<body>
+    <header>
+        <div class="container">
+            <h1 id="companyName"> &#127969; William Smith -Real State Agent </h1>
+            <i><h2 id="slogan"> "Let me help you to achieve your dreams" </h2></i>
+        </div>
+    </header>
+    <nav>
+        <div class="containerNav">
+            <br>
+            <ul>
+                <li><a href="homePage.html">Home</a></li>
+                <li><a href="aboutMe.html">About me</a></li>
+                <li><a href="propertiesForRent.html">Properties for rent</a></li>
+                <li><a href="propertiesForSale.html">Properties for sale</a></li>
+                <li><a href="newCustomerForm.html">New Customers form</a></li>
+                <li><a href="contactDetails.html">Contact details</a></li>
+            </ul>
+            <br>
+        </div>
+    </nav>
+    <br>
+    <center><h3 id="textForm">Are you interested in sell, rent or purchase a house? Please fill out this form and We will be in contact soon</h3></center>
+    <div id="form">
+        <form action="mailto:william.smith@realstate.ca" method="post" enctype="text/plain">
+             
+            <br><br>
+            <label for="date">&nbsp;&nbsp; &nbsp;&nbsp;Date<b><sup>*</sup>: </b></label>
+            <input type="date" name="date" id="date" required>
+
+            &nbsp;&nbsp; I want to<b><sup>*</sup></b>:
+            <input type="radio" id="value1" name="option" value="Rent" required>
+            <label for="value1">Rent</label>
+            <input type="radio" id="value2" name="option" value="Purchase">
+            <label for="value2">Purchase</label>
+            <input type="radio" id="value3" name="option" value="Sell">
+            <label for="value3">Sell</label>
+
+            
+            <fieldset><legend><b><p>PERSONAL INFORMATION</p></b></legend>
+
+                        <label for="firstName">First Name<b><sup>*</sup></b>:</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Enter your first name" required size="50%">
+                        <label for="lastName">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last Name<b><sup>*</sup></b>:</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Enter your last name" required size="50%">
+                        <br> <br>
+                        <label for="phoneNumber">Phone Number<b><sup>*</sup></b>:</label>
+                        <input type="number" name="phoneNumber" id="phoneNumber" placeholder="Enter phone number" required size="70%">
+                        <label for="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail<b><sup>*</sup></b>:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your E-mail address" required size="60%">
+                    
+            </fieldset><br>
+            <fieldset><legend><b><p>HOUSE SPECIFICATIONS</p></b></legend>
+       
+                        
+                        <label for="propertyType">Type of property you are interested in<sup>*</sup>:</label>
+                         <select name="propertyType" id="propertyType" required>
+                            <option value=""></option>
+                            <option value="house">House</option>
+                            <option value="condominium">Condominium</option>
+                        </select>
+
+                        <label for="pet">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do you have pets?<sup>*</sup>:</label>
+                        <select name="pet" id="pet" required>
+                           <option value=""></option>
+                           <option value="yes">Yes</option>
+                           <option value="no">No</option>
+                       </select> 
+
+                       <label for="pet2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If yes, provide details: </label> 
+                      <textarea name="pet2" id="pet2"  rows="1" class="textBox2"></textarea>
+
+
+
+                        <p>Place select the number of bedrooms desired<b><sup>*</sup></b>:</p>
+                            <input type="radio" id="value1" name="numberBedrooms" value="1-2" required>
+                            <label for="value1">1-2</label>
+                            <input type="radio" id="value2" name="numberBedrooms" value="3-4">
+                            <label for="value2">3-4</label>
+                            <input type="radio" id="value3" name="numberBedrooms" value="5+">
+                            <label for="value3">5 or more</label>
+
+                        <p>Place select the number of bathrooms desired<b><sup>*</sup></b>:</p>
+                            <input type="radio" id="value1" name="numberBathrooms" value="1-2" required>
+                            <label for="value1">1-2</label>
+                            <input type="radio" id="value2" name="numberBathrooms" value="3-4">
+                            <label for="value2">3-4</label>
+                            <input type="radio" id="value3" name="numberBathrooms" value="5+">
+                            <label for="value3">5 or more</label>
+
+                        <p>Please select <b>ALL</b> the facilities you are looking for <b><sup>*</sup></b>:</p>
+                            <input type="radio" id="value1" name="Gym" value="Gym" required>
+                            <label for="value1">Gym</label>
+                            <input type="radio" id="value2" name="SwimmingPool" value="SwimmingPool">
+                            <label for="value2">Swimming Pool</label>
+                            <input type="radio" id="value3" name="ParkingLot" value="ParkingLot">
+                            <label for="value3">Parking Lot</label>
+                            <input type="radio" id="value4" name="BBQZone" value="BBQ Zone">
+                            <label for="value4">BBQ Zone</label>
+                            <input type="radio" id="value4" name="Spa" value="Spa">
+                            <label for="value4">Spa</label>
+
+                        <br><br>
+
+                        <p>Please provide the range of prices you are interested in (CAD):</p>
+                       
+                            <label for="price-min">Min Price:</label>
+                            <input type="range" min="1000" max="10000000" value="5000"  id="myRange">
+                            <p>$: <span id="demo"></span></p>
+                        
+                        <script>
+                            var slider = document.getElementById("myRange");
+                            var output = document.getElementById("demo");
+                            output.innerHTML = slider.value;
+                            
+                            slider.oninput = function() {
+                              output.innerHTML = this.value;
+                            }
+                        </script>
+
+                        <div id="formText">
+                            <label for="price-max">Max Price:</label>
+                            <input type="range" min="1000" max="10000000" value="100000" id="myRange2">
+                            <p>$: <span id="demo2"></span></p>
+
+                            <script>
+                                    var slider2 = document.getElementById("myRange2");
+                                    var output2 = document.getElementById("demo2");
+                                    output2.innerHTML = slider2.value;
+                                    
+                                    slider2.oninput = function() {
+                                    output2.innerHTML = this.value;
+                                    }
+                            </script>
+                        </div>
+
+
+            </fieldset><br>
+
+            <fieldset><legend><b>ADDITIONAL INFORMATION</b></legend>
+
+                <label for="Other">Please provide additional information that you consider relevant </label><br><br>
+                <textarea name="Other" id="Other"  rows="4" class="textBox"></textarea>
+            </fieldset>
+            <h5 id="required">&nbsp;&nbsp;&nbsp;<b><sup>*</sup></b> Required field</h5>
+            
+            <input type="reset" name="Reset" id="Reset" value="Reset form" class="button">
+            &nbsp;&nbsp;<input type="submit" name="submit" id="submit" value="Submit form">
+            <br><br>
+        </form>
+    </div>
+    <div class="center">
+    <p><i><b>Thank you for the information! We will reply soon.</b></i></p>
+    </div>
+    <br>
+</div>
+
+
+    </div>
+    
+    <footer> 
+        <div class="divFooter2">
+        <hr id="hr">
+            <h6 class="copyRights">&copy;&nbsp;Copyright Orlando Velasco Rios (301368612) - Individual Project - COMP213 Web Interface Design - SEC. 008</h6> 
+        </div> 
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,526 @@
+
+.container {
+    position: relative;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(241, 234, 234, 0.84) ;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 150px;
+   
+  }
+  
+  #companyName {
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    color: rgba(53, 3, 3, 0.84);
+  }
+
+  #slogan {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    color: rgba(53, 3, 3, 0.84);
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+
+li {
+  display: inline;
+  
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+
+.containerNav {
+  position: relative;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(53, 3, 3, 0.84);
+  border: 4%;
+
+}
+a{
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.containerBody{
+  position: relative;
+}
+
+#bodyImage{
+
+  position: relative;
+  width: 40%;
+  margin-right: 5%;
+  float: right;
+
+}
+
+#bodyText{
+
+  position: relative;
+  width: 45%;
+  margin-top: 2%;
+  left: 5%;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: large;
+
+}
+
+#hr{
+  border-style:dotted ; 
+  margin-left: 5%;
+  margin-right: 5%;
+  border-color:rgba(53, 3, 3, 0.84);
+  border-width:2px;
+}
+
+.copyRights{
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  color: rgba(53, 3, 3, 0.84);
+}
+
+.divFooter{
+  margin-top: 10%;
+}
+
+#form{
+  margin-left: 5%;
+  margin-right: 5%;
+  color: rgba(53, 3, 3, 0.84) ;
+  margin-top: 2%;
+  border-style: solid;
+  border-radius: 2%;
+  background-color: rgba(241, 234, 234, 0.84) ;
+}
+
+.textBox{
+  width: 99%;
+
+}
+
+.center{
+  text-align: center;
+  color: rgba(53, 3, 3, 0.84) ;
+}
+
+.divFooter2{
+  margin-top: 0%;
+}
+
+#textForm{
+  margin-left: 5%;
+  margin-right: 5%;
+  color: rgba(53, 3, 3, 0.84) ;
+}
+label{
+
+  margin-left: 0%;
+  margin-right: 0%;
+
+}
+
+fieldset{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#required{
+  margin-top: 0%;
+  margin-left: 1%;
+}
+
+.button{
+  margin-left: 2%;
+}
+
+.textBox2{
+  width: 28%;
+
+}
+
+.map-responsive{
+  position: relative;
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 40%;
+}
+
+#textContact{
+  position: absolute;
+  float: right;
+  margin-right: 5%;
+  right: 35%;
+  top: 38%;
+  color: black;
+}
+
+#textContact2{
+  position: absolute;
+  float: right;
+  margin-right: 5%;
+  right: 5%;
+  top: 38%;
+}
+
+#textContact3{
+  color: black;
+  font-size: large;
+  
+}
+
+.divFooter3{
+  margin-top: 5%;
+}
+
+#textHome{
+  color: rgba(53, 3, 3, 0.84) ;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.textBoxHome1{
+  position: relative;
+  margin-left: 5%;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: rgba(53, 3, 3, 0.84) ; ;
+  width: 20%;
+  height: 380px;
+  background-color: rgba(241, 234, 234, 0.84) ; 
+}
+
+.textBoxHome2{
+  position: relative;
+  width: 20%;
+  border-radius: 5%;
+  border-style: solid;
+  margin-left: 40%;
+  margin-top: -31%;
+  border-color: rgba(53, 3, 3, 0.84) ;
+  height: 380px; 
+  background-color: rgba(241, 234, 234, 0.84) ;
+
+}
+
+.textBoxHome3{
+  position: relative;
+  width: 20%;
+  float: right;
+  margin-right: 5%;
+  margin-top:-31%;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: rgba(53, 3, 3, 0.84) ; 
+  background-color: rgba(241, 234, 234, 0.84) ;
+  
+
+
+}
+
+.box1{
+  margin-left: 5%;
+}
+
+.box2{
+  margin-left: 5%;
+  margin-top: -8%;
+}
+
+.box3{
+  margin-left: 5%;
+  margin-top: -8%;
+
+}
+
+.box4{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: medium;
+}
+
+.listImages1{
+  position: relative; 
+  width: 20%; 
+  height: 20%;
+  margin-left: 4%;
+  margin-right: 5%;
+}
+
+.listImages2{
+  position: relative; 
+  width: 20%; 
+  height: 20%;
+  margin-left: 4%;
+  margin-right: 5%;
+  top: -100px;
+}
+
+.listImages3{
+  position: relative; 
+  width: 20%; 
+  height: 20%;
+  margin-left: 4%;
+  margin-right: 5%;
+  top: -50px;
+}
+
+#textHome2{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: larger;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#bodyText2{
+
+  position: relative;
+  margin-left: 38%;
+
+}
+
+#picture1A{
+
+background-color: rgba(53, 3, 3, 0.84) ;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 5%;
+width:90%;
+height: 500PX; 
+
+}
+
+
+#picture1B{
+
+  text-align: center;
+  background-color: white;
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 40%;
+  height: 300px;
+
+  
+  }
+
+  
+  #picture1C{
+
+    background-color: rgba(53, 3, 3, 0.84) ; 
+    margin-left: 30%;
+    width: 40%;
+    margin-top: -5%;
+    height: 50px;
+    
+    }
+  
+
+    #propertyText2{
+      text-align: center;
+      margin-left: 5%;
+      color: white;
+      margin-top: -2%;
+    }
+    
+    #propertyImage{
+      position: absolute;
+      width: 40%;
+      margin-left: 45%;
+      margin-top: 0%;
+      height: 425px;
+    }
+
+    
+    #propertyImage2{
+      position: absolute;
+      width: 40%;
+      margin-left: 5%;
+      margin-right: 45%;
+      margin-top: 0%;
+      height: 425px;
+    }
+
+
+    #propertyText4{
+      text-align: center;
+      margin-left: 5%;
+      color: white;
+      margin-top: -2%;
+    }
+
+    #picture1D{
+
+      position: relative;
+      text-align: center;
+      background-color: white;
+      margin-top: 5%;
+      margin-left: 55%;
+      width: 40%;
+      height: 300px;
+    
+      
+      }
+    
+      
+      #picture1E{
+        
+        position: relative;
+        background-color: rgba(53, 3, 3, 0.84) ; 
+        margin-left: 30%;
+        width: 40%;
+        margin-top: -5%;
+        height: 50px;
+        
+        }
+      
+        .propertyTitle{
+         color:rgba(53, 3, 3, 0.84) ;
+        }
+
+        .propertySubtitle{
+          color:rgba(53, 3, 3, 0.84) ;
+          margin-top: -1%;
+        }
+
+        .propertyContainer{
+
+          background-color: rgba(53, 3, 3, 0.84) ;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 5%;
+          width:90%;
+          height: 437PX; 
+          
+          }
+
+       .listGlobalImages{
+        border-style: solid;
+        border-color:rgba(53, 3, 3, 0.84) ;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 2%;
+       }   
+
+       .propertyImage1{
+       
+        position: absolute;
+        width: 35%;
+        height: 413px;
+        margin-top: 1%;
+        margin-left: 1%;
+
+       }
+
+       .propertyImage2{
+        position: absolute;
+        margin-left: 37%;
+        margin-top: 1%;
+        width: 25%;
+        height: 200px;
+       }
+
+       .propertyImage3{
+        position: absolute;
+        margin-left: 37%;
+        margin-top: 18%;
+        width: 25%;
+        height: 200px;
+       }
+
+       .propertyImage4{ 
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 63%;
+        width: 25%;
+        height: 200px;
+        
+       }
+
+       .propertyImage5{ 
+        position: absolute;
+        margin-left: 63%;
+        margin-top: 18%;
+        width: 25%;
+        height: 200px;
+        
+       }
+
+       .homeDetails{
+        margin-left: 5%;
+        color:rgba(53, 3, 3, 0.84) ;
+
+       }
+
+       .description{
+        margin-left: 5%;
+        color:rgba(53, 3, 3, 0.84) ;
+
+       }
+
+       .descriptionText{
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: justify;
+        font-size: large;
+
+       }
+
+       .houseSpecifications{
+        margin-left: 10%;
+       }
+
+       .tableTittle{
+        border-bottom: 1px; 
+        border-style: solid;
+        font-weight:bold;  
+        background-color: rgba(241, 234, 234, 0.84) ;
+    }
+    
+    .td:nth-child(2n+1){
+        font-weight:bold; 
+        background-color: rgba(241, 234, 234, 0.84) ;
+
+    }
+    
+    
+    .tdfoot{
+        font-size: xx-small; 
+        text-align: left; 
+        border-right:hidden; 
+        border-left:hidden;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+    }
+
+    .map-responsive2{
+      position: relative;
+      margin-top: -25%;
+      margin-left: 55%;
+      width: 50%;
+    }
+
+    #formText{
+      position: relative;
+      margin-left:  30%;
+      margin-top: -7%;
+    }
